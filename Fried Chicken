@@ -1,2 +1,6 @@
 testing 1 2 3
 fried checiken
+
+func RandomNumber(upperValue: Double) -> Double {
+    Double.random(in:1..<upperValue)
+}
